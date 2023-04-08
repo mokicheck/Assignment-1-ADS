@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         // Create an array of integers
         int[] arr = {5, 10, 1, 32, 3, 45};
-
         // Initialize a variable for the minimum value
         int min = findMin(arr, arr.length);
         System.out.println("Min of arr is: " + min + " " + arr.length);
