@@ -15,3 +15,10 @@ The program starts by creating a new Scanner object to read input from the user.
 Finally, the program calls the average function with the array and an index of 0, and prints the result divided by the length of the array.
 
 The average function takes an array arr and an integer num as arguments and recursively calculates the sum of the elements in the array. If num is equal to the length of arr, the function returns 0. Otherwise, it returns the sum of the num-th element of arr and the result of calling the average function again with arr and num + 1.
+
+### Problem 3
+The code is an implementation of a Java program that checks whether a given integer number is prime or composite. The program takes user input for the number to be checked and uses a recursive function called isPrime to determine if the number is prime or composite.
+
+The isPrime function checks if a number is divisible by any integer from 2 to n/2. If it finds any divisor, it returns false, indicating that the number is composite. If it reaches n/2 + 1 without finding any divisor, it returns true, indicating that the number is prime.
+
+The program outputs either "Prime" or "Composite" based on the return value of the isPrime function. If the input number is 1, the program considers it as a special case and outputs "Prime".
