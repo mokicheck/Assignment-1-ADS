@@ -22,3 +22,8 @@ The code is an implementation of a Java program that checks whether a given inte
 The isPrime function checks if a number is divisible by any integer from 2 to n/2. If it finds any divisor, it returns false, indicating that the number is composite. If it reaches n/2 + 1 without finding any divisor, it returns true, indicating that the number is prime.
 
 The program outputs either "Prime" or "Composite" based on the return value of the isPrime function. If the input number is 1, the program considers it as a special case and outputs "Prime".
+
+### Problem 4 
+This Java program calculates the factorial of a given number using a recursive function. The program prompts the user to enter a number, and then calls the factorial function to compute the factorial of that number. The factorial function is a recursive function that takes an integer parameter N, and returns the factorial of N. If N is less than or equal to 1, the function returns 1 (base case). If N is greater than 1, the function multiplies N by the factorial of N-1, which is computed recursively (recursive case). Finally, the program prints the result to the console.
+
+
