@@ -32,6 +32,7 @@ public class Example2 {
         }
         // Otherwise, return the sum of the num-th element of arr and the result
         // of calling the average function again with arr and num + 1
+        //
         return arr[num] + average(arr, num + 1);
     }
 }
