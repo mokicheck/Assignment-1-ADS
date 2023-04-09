@@ -21,6 +21,11 @@ public class Example2 {
         // and print the result divided by the length of the array
         System.out.println(average(arr, 0) / arr.length);
     }
+    /*
+    @average - calculates the sum of the elements in the array recursively
+    @arr - array
+    @num - integer variable used as a parameter in the average function
+     */
 
     /*This function takes an integer array arr and an integer num as arguments,
     and recursively calculates the sum of the elements in the array

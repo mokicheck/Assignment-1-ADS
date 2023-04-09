@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/*
+@static int i = 2 - declares a static variable i with a value of 2.
+ */
 public class Main {
     static int i = 2;
 
@@ -13,7 +15,10 @@ public class Main {
             System.out.println("Composite");
     }
 
-    // Function to check if a number is prime or composite
+    /*
+    @isPrime - function to check if a number is prime or composite
+    @
+     */
     public static boolean isPrime(int n) {
         // If i reaches n/2 + 1 without finding a divisor, n is prime
         if(i == n/2 + 1)

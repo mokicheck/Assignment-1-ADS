@@ -6,9 +6,13 @@ public class Main {
         int min = findMin(arr, arr.length);
         System.out.println("Min of arr is: " + min + " " + arr.length);
     }
-/* findMin func takes an integer array arr and an integer n as input,
-and returns the minimum value in the first n elements of the array.
- */
+    /*
+    @ findmin -  method is used to find the minimum of the two values.
+    @ n - an integer indicating the number of elements
+    @ arr - array
+    @ return - returning minimun of func
+     */
+
     public static int findMin(int[] arr, int n){
         if (n==1)
                 return arr [0];

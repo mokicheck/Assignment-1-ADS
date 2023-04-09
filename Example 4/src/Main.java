@@ -8,7 +8,9 @@ public class Main {
         System.out.println(result);
     }
 
-    // Recursive function to calculate factorial
+    /*
+    @factorial - Recursive function to calculate factorial
+     */
     public static int factorial(int N) {
         // Base case: if N is 0 or 1, return 1
         if (N <= 1) {
