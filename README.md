@@ -93,12 +93,20 @@ finds Cn(binomial coefficient) using formula Cn=Cn−1+Cn−1where Cn=Cn=1.
 
 Explanation:
 
+This Java program takes in two integers n and k from the user and calculates the binomial coefficient C(n, k) using recursion. The binomial coefficient represents the number of ways that k objects can be selected from a set of n distinct objects, and is calculated using the formula C(n, k) = n! / (k! * (n-k)!).
+
+The program first takes in n and k using the Scanner class. It then calls the binomialCoefficient function, passing in n and k as arguments, and assigns the result to the variable result. The binomialCoefficient function is a recursive function that uses the base case of C(n, 0) = 1 and C(n, n) = 1 to terminate the recursion, and the recursive case of C(n, k) = C(n-1, k) + C(n-1, k-1) to calculate the binomial coefficient. The final result is printed to the console using the println function.
+
 ### 🔴Problem 10
 Description:
 
 Function for finding GCD(a, b) using recursion
 
 Explanation:
+
+This Java code prompts the user to enter two integers and calculates their Greatest Common Divisor (GCD) using the Euclidean algorithm. The main function reads the two input integers and calls the findGCD function to calculate their GCD. The findGCD function is a recursive implementation of the Euclidean algorithm to find the GCD of two integers. The calculated GCD is then printed to the console using formatted output.
+
+
 
 
 
