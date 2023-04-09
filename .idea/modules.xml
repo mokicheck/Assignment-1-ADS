@@ -3,14 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Example 1/Example 1.iml" filepath="$PROJECT_DIR$/Example 1/Example 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example 9/Example 10/Example 10.iml" filepath="$PROJECT_DIR$/Example 9/Example 10/Example 10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example 2/Example 2.iml" filepath="$PROJECT_DIR$/Example 2/Example 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example 3/Example 3.iml" filepath="$PROJECT_DIR$/Example 3/Example 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example 4/Example 4.iml" filepath="$PROJECT_DIR$/Example 4/Example 4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example 5/Example 5.iml" filepath="$PROJECT_DIR$/Example 5/Example 5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example 6/Example 6.iml" filepath="$PROJECT_DIR$/Example 6/Example 6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example 7/Example 7.iml" filepath="$PROJECT_DIR$/Example 7/Example 7.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example 8/Example 8.iml" filepath="$PROJECT_DIR$/Example 8/Example 8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example 9/Example 9.iml" filepath="$PROJECT_DIR$/Example 9/Example 9.iml" />
       <module fileurl="file://$PROJECT_DIR$/Example1.iml" filepath="$PROJECT_DIR$/Example1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Example2/Example2.iml" filepath="$PROJECT_DIR$/Example2/Example2.iml" />
     </modules>
   </component>
 </project>
